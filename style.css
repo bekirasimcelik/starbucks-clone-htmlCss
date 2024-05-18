@@ -220,10 +220,46 @@ img {
     order: 2;
 }
 
-
+/** Divider */
 .divider {
     width: 95%;
     height: 1px;
     background-color: #ccc;
     margin: 40px auto;
+}
+
+/** Footer */
+footer {
+    text-align: center;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 30px;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.social a {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.created-by {
+    background: linear-gradient(to right, var(--color-secondary), var(--color-primary));
+    padding: 10px 30px;
+}
+
+.created-by span {
+    color: black;
+    font-weight: bold;
 }
